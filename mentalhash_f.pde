@@ -29,19 +29,18 @@ void draw() {
   case 1:
   background(0,0,255);
   text("Hacking....",wt/2,ht/2);
-  screen2();
+  //screen2();
   break;
 
   case 2:
   background(255,255,0);
   background(0,0,255);
-  text("Hacking....",wt/2,ht/2);
-  screen3();
+  text("Start Hacking....",wt/2,ht/2);
+  //screen3();
   text("s:"+num,5,ht);
   break;
 
   case 3:
-  
   if (flag==0){
   screen_pwGen();
   }else{

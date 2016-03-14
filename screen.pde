@@ -2,7 +2,10 @@ void screen1(){
   background(0,0,255);
   textAlign(CENTER);
   textSize(28);
-  text("Using Metantal Hash to Improve Pasword Security\n by Emily Zhou",wt/2,ht/2);
+  text("Using Mental Hash to Improve Pasword Security\n by Emily Zhou",wt/2,ht/2 -100);
+  fill(255,0,0);
+  text("Click to Start",wt/2,ht/2 +50);
+  fill(255,255,255);
   textAlign(LEFT);
   text("s:"+num,5,ht);
 }

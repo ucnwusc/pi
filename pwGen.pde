@@ -3,17 +3,24 @@ void screen_pwGen(){
   background(0,0,255);
   textAlign(LEFT);
   textSize(30);
-  text("Enter Website Name:",10,50);
-  //text("Your Inputs:",200,150);
-  text("password: ",10,200);
+  text("Enter Website or Your Login Name:",10,50);
+  textSize(24);
+  text("Press 'CTRL' to Generate Your Password  ",200,ht-50);
+  text("Press 'x' + mousePressed to EXIT!",200,ht);
+  textSize(30);
   if (num==3 && flag ==0){
-    text(myText, 200,100);
+    fill(255,0,0);
+    text(myText, 100,100);
     if (s1 != null) {
-    text(s1,200,100);
+    text(s1,100,100);
     }
     if (s2 != null) {
-      text(s2,200,250);
+      fill(255,255,255);
+      text("Password for you: ",10,250);
+      fill(255,0,0);
+      text(s2,100,350);
     }
+    fill(255,255,255);
   }else if (flag==1) {
     myText="";
     s2="";
