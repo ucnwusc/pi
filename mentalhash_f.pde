@@ -2,7 +2,7 @@
 *https://github.com/ucnwusc/pi.git
 */
 
-String s1, s2, myText = "";
+String s1="", s2="", myText = "";
 int num=0;
 int flag=0;
 int wt=800;
@@ -32,16 +32,13 @@ void draw() {
     
   case 1:
   background(0,0,255);
-  text("Hacking....",wt/2,ht/2);
-  //screen2();
+  screen2();
   break;
 
   case 2:
   background(255,255,0);
   background(0,0,255);
-  text("Start Hacking....",wt/2,ht/2);
-  //screen3();
-  text("s:"+num,5,ht);
+  screen3();
   break;
 
   case 3:

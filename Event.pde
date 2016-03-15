@@ -1,14 +1,11 @@
 void mouseClicked() {
   if (num == 0 && mouseX >0 && mouseX < wt) {
-    num = 3;
-  } else if (num == 1 && mouseX>0 && mouseX<wt/2)  {
+    num = 1;
+  } else if (num == 1 && mouseX>0 && mouseX<wt)  {
     num = 2;
-  } else if (num == 2 && mouseX>0 && mouseX<wt/2)  {
+  } else if (num == 2 && mouseX>0 && mouseX<wt)  {
     num = 3;
-  } else if (num == 3 && mouseX>wt/2 && mouseX<wt)  {
-    num=3;
-    flag=1;
-  } else if (num == 3 && mouseX>0 && mouseX<wt/2)  {
+  } else if (num == 3 && mouseX>0 && mouseX<wt)  {
     num=3;
     flag=1;
   }

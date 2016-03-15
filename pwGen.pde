@@ -5,16 +5,17 @@ void screen_pwGen(){
   textSize(30);
   text("Enter Website or Your Login Name:",10,50);
   textSize(24);
-  text("Press 'CTRL' to Generate Your Password  ",200,ht-50);
+  text("Press 'CTRL' to Generate Your Password  ",200,ht-100);
+  text("Press 'mouseClick' to Reset  ",200,ht-50);
   text("Press 'x' + mousePressed to EXIT!",200,ht);
   textSize(30);
   if (num==3 && flag ==0){
     fill(255,0,0);
     text(myText, 100,100);
-    if (s1 != null) {
-    text(s1,100,100);
+    if (s1.length() >0) {
+        text(s1,100,100);
     }
-    if (s2 != null) {
+    if (s2.length() > 0 ) {
       fill(255,255,255);
       text("Password for you: ",10,250);
       fill(255,0,0);
